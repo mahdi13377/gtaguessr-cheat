@@ -9,4 +9,4 @@ CTRL+S\
 Refresh page and make a guess 
 
 ## Showcase
-> https://vimeo.com/902615657?share=copy
+> https://vimeo.com/902615657
