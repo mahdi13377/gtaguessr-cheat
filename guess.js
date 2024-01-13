@@ -200,7 +200,6 @@ class Game {
     
             const locationId = String(this._locations[this._index].locationId);
     
-            // Make the POST request to obtain latitude and longitude
             const response = yield fetch("https://gtaguessr.com/API/SubmitAGuess?aaa", {
                 method: "POST",
                 headers: {
@@ -209,7 +208,7 @@ class Game {
                 },
                 body: JSON.stringify({
                     locationId: locationId,
-                    lat: "1", // unimportant, replace with actual data
+                    lat: "1", 
                     lng: "1"
                 })
             });
@@ -219,8 +218,8 @@ class Game {
             const data = {
                 sessionId: String(window.sessionId),
                 locationId: locationId,
-                lat: String(responseData.lat), // Use the latitude from the response
-                lng: String(responseData.lng), // Use the longitude from the response
+                lat: String(responseData.lat),
+                lng: String(responseData.lng), 
                 lobyId: lobbyId,
                 lobyUserId: lobbyUserId,
                 game: game || "0"
