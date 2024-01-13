@@ -1,5 +1,5 @@
 > Tutorial <br />
-Go to https://gtaguessr.com/\
+Go to https://gtaguessr.com/
 Start a game\
 Open dev tools > sources > gtaguessr.com/js/Guess/guess.js\
 Select all\
